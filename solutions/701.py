@@ -42,7 +42,11 @@ It's guaranteed that val does not exist in the original BST.
 #         self.right = right
 class Solution:
     def insertIntoBST(self, root: Optional[TreeNode], val: int) -> Optional[TreeNode]:
-        
+
+        # if root doesn't exist, create new binary search tree
+        if root is None:
+            return TreeNode(val)
+     
         # no duplicate entries
         if val < root.val: # to the left
             if root.left is None:

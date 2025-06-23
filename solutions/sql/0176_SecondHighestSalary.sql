@@ -54,6 +54,12 @@ Output:
 +---------------------+
 */
 
+/* -- not my solution, but one of the more optimal solns for me to review
+select max(salary) as SecondHighestSalary from Employee
+where salary < (select max(salary) from Employee)
+*/
+
+/* -- My first solution
 WITH distinct_salaries AS (
     SELECT DISTINCT salary FROM Employee
 ),
@@ -68,3 +74,11 @@ SELECT
     END AS SecondHighestSalary
 FROM ranked_salaries
 WHERE salary_rank = 2;
+*/
+
+SELECT MAX(salary) AS SecondHighestSalary
+FROM Employee
+WHERE salary < (
+    SELECT MAX(salary) FROM Employee
+);
+

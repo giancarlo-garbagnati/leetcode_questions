@@ -1,4 +1,4 @@
-"""
+""" https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/description/
 Not a complete solution (only solved 649/828 testcases) but putting a pin in 
 this to possibly use later (since I want to move on and practice other qs).
 
@@ -9,7 +9,7 @@ more than the "minority" directions
 prioritize changing based on the surrounding circumstance.
 """
 ################################################################################
-"""
+""" https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/description/
 3443. Maximum Manhattan Distance After K Changes
 Attempted
 Medium

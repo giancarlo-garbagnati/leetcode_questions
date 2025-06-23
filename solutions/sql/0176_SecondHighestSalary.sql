@@ -1,4 +1,4 @@
-/*
+/* https://leetcode.com/problems/second-highest-salary/description/
 176. Second Highest Salary
 Medium
 

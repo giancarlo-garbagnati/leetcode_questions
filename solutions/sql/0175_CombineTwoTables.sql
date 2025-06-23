@@ -1,4 +1,4 @@
-/*
+/* https://leetcode.com/problems/combine-two-tables/
 175. Combine Two Tables
 Easy
 
